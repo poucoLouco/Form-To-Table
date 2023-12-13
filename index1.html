@@ -40,7 +40,7 @@
       
       </table>
 
-<h2 >"Overall GPA: "<span id="gpa"></span></h2>
+<h2 >Overall GPA: <span id="gpa"></span></h2>
     </section>
     <script>
 
@@ -60,11 +60,11 @@
 
 
        
-        let mygpa=function gpa(){
-            let sum=(sub1value+sub1value+sub1value+sub1value)/40;
 
-        }
-        document.getElementById('gpa').innerHTML= mygpa;
+            let sum=(parseFloat(sub1)+parseFloat(sub2)+parseFloat(sub3)+parseFloat(sub4))/40
+
+
+        document.getElementById('gpa').innerHTML=sum;
 
     </script>
 </body>
